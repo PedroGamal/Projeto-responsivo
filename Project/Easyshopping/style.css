@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+}
+.container-left {
+  display: inline-block;
+  width: 60%;
+  margin-top: 381px;
+  padding-left: 136px;
+}
+
+.container-right {
+  display: inline-block;
+  background-color: rgba(93, 93, 125, 0.16);
+  height: 100vh;
+  width: 40%;
+  position: absolute;
+}
+
+img {
+  width: 456px;
+  height: 561.95px;
+  position: relative;
+  top: 215px;
+  right: 140px;
+}
+h1 {
+  color: #5d5d7d;
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 80px;
+  width: 368px;
+}
+
+p {
+  color: #5d5d7d;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 48px;
+  opacity: 0.6;
+  width: 540px;
+  margin: 15px 0;
+}
+
+button {
+  width: 269px;
+  height: 62px;
+  background-color: #9499ea;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  box-shadow: 0 10px 24px rgba(148, 153, 234, 0.1);
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+a {
+  color: #5d5d7d;
+  font-size: 28px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-right: 41px;
+}
+
+a:hover {
+  opacity: 0.4;
+}
+a:nth-child(1) {
+  margin-left: 57px;
+}
+a:active {
+  opacity: 0.8;
+}
+
+header {
+  margin-top: 24.12px;
+}
+
+@media screen and (max-width: 1025px) {
+  .container-left {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+  }
+  .container-right {
+    display: block;
+    height: auto;
+    width: 100%;
+    position: static;
+    padding: 40px;
+  }
+  header {
+    display: none;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 52px;
+    width: auto;
+    margin: 58px 53px 0 54px;
+    text-align: center;
+  }
+  p {
+    margin: 15px 40px;
+    width: auto;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.6;
+    text-align: center;
+  }
+
+  button {
+    display: block;
+    margin: 0 auto;
+  }
+  img {
+    position: static;
+    width: 90%;
+    height: 90%;
+  }
+}
